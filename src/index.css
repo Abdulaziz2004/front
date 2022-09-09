@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  border: 0;
+  background: #1d74ad;
+  padding: 16px 32px;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-create-post, .btn-logout {
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #1d74ad;
+  border-radius: 8px;
+  margin: 0 8px;
+}
